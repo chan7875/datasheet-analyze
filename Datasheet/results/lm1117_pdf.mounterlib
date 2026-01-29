@@ -1,0 +1,92 @@
+<?xml version="1.0"?>
+<MounterLibrary>
+
+  <Parts>
+    <Part PartCode="LM1117-SOT223" Footprint="SOT223" ImagePath="" />
+    <Part PartCode="LM1117-TO220" Footprint="TO220" ImagePath="" />
+    <Part PartCode="LM1117-TO252" Footprint="TO252" ImagePath="" />
+    <Part PartCode="LM1117-TO263" Footprint="TO263" ImagePath="" />
+    <Part PartCode="LM1117-WSON" Footprint="WSON" ImagePath="" />
+  </Parts>
+
+  <PartCodes>
+    <PartCode Name="LM1117-SOT223">
+      <Common
+        PartNumber="LM1117"
+        Description="LDO REGULATOR"
+        Specification="LM1117 SOT-223"
+        Process="SMD"
+        PartWeight="0.3"
+        Length_X="6.5"
+        Width_Y="3.5"
+        Height="1.8"
+        Color="0"
+        QuantityCheckLimit="100"
+        LeadBrightness="0"
+        HeadTargetHeads="1 2 3 4"
+        PinQty="4"
+        ModifiedDate="2025-12-26"
+      />
+      <Package ShapeName="LM1117_SOT223" NozzleName="1.0" VisionType="60" Packing="P1208" />
+      <Tolerance LengthTolerance_X="0.1" WidthTolerance_Y="0.1" HeightTolerance="0.1" />
+      <Pick SoftPickSpeed="10" />
+      <Place TransportSpeed="100" />
+      <Vision Type="60" />
+    </PartCode>
+
+    <!-- Similar <PartCode> entries for TO220, TO252, TO263, WSON packages -->
+
+  </PartCodes>
+
+  <Geometries>
+    <Geometry Name="LM1117_SOT223">
+      <Common
+        Process="SMD"
+        Length_X="6.5"
+        Width_Y="3.5"
+        Height_T="1.8"
+        Offset_X="0"
+        Offset_Y="0"
+        Offset_Angle="0"
+        ModifiedDate="2025-12-26"
+      />
+
+      <Polarity Value="0.None" PolarityExistence="None" />
+
+      <Pins>
+        <PinInfo PinNo="1" PadName="PAD_SOT223_1" Location="-2.3,-1.5" Angle="90" />
+        <PinInfo PinNo="2" PadName="PAD_SOT223_2" Location="0,1.6" Angle="90" />
+        <PinInfo PinNo="3" PadName="PAD_SOT223_3" Location="2.3,-1.5" Angle="90" />
+      </Pins>
+
+      <Outline>PB P PS -3.25 -1.75 PS -3.25  1.75 PS  3.25  1.75 PS  3.25 -1.75 PS -3.25 -1.75 PE</Outline>
+    </Geometry>
+
+    <!-- Similar <Geometry> entries for TO220, TO252, TO263, WSON packages -->
+
+  </Geometries>
+
+  <PadSymbols>
+    <PadSymbol Name="PAD_SOT223_1">
+      <Shapes>
+        <PadShape>R -0.6 -0.8 0.6 0.8</PadShape>
+      </Shapes>
+    </PadSymbol>
+
+    <PadSymbol Name="PAD_SOT223_2">
+      <Shapes>
+        <PadShape>R -1.6 -2.0 1.6 2.0</PadShape>
+      </Shapes>
+    </PadSymbol>
+
+    <PadSymbol Name="PAD_SOT223_3">
+      <Shapes>
+        <PadShape>R -0.6 -0.8 0.6 0.8</PadShape>
+      </Shapes>
+    </PadSymbol>
+
+    <!-- Similar <PadSymbol> entries for other packages -->
+
+  </PadSymbols>
+
+</MounterLibrary>

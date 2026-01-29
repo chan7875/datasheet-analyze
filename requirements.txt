@@ -1,0 +1,5 @@
+PyQt6
+watchdog
+pymupdf
+openai
+# qimage2ndarray # might be needed depending on implementation details, but not seen in imports
